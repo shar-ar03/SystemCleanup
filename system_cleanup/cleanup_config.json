@@ -1,0 +1,31 @@
+{
+    "cleanup_paths": {
+      "temp_files": [
+        "/tmp",
+        "/var/tmp",
+        "~/.cache",
+        "~/Downloads",
+        "~/Documents/temp"
+      ],
+      "log_files": [
+        "/var/log",
+        "~/logs"
+      ],
+      "cache_files": [
+        "~/.cache/thumbnails",
+        "~/.cache/mozilla",
+        "~/.cache/google-chrome",
+        "~/.cache/pip"
+      ]
+    },
+    "target_extensions": {
+      "temp": [".tmp", ".temp", ".swp", ".bak", ".old", ".part"],
+      "logs": [".log", ".log.1", ".log.gz", ".log.old"],
+      "cache": [".cache"]
+    },
+    "disk_threshold": 80,
+    "exclude_dirs": [
+      "/tmp/important",
+      "~/Documents/important"
+    ]
+  }
